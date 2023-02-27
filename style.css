@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppies', sans-serif;
+}
+body{
+    background-color: #EAE7DC;
+}
+nav {
+    background-color: #D8C3A5;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid #8E8D8A;
+    border-radius: 1%;
+}
+.logo{
+    margin-left: 20px;
+}
+.logo img{
+    height: 100px;
+    width: auto;
+}
+nav ul{
+    list-style-type: none;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+nav li{
+    float: left;
+}
+nav li a{
+    display: block;
+    color: #5f5d58;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 22px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+nav li a:hover {
+    background-color: #e9e0c1;
+}
+.title{
+    width: 100%;
+    background-color: #EAE7DC;
+    min-height: 100px;
+}
+.title h1{
+    padding: 30px 50px;
+    color: #E85A4F;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+section{
+    background-color: rgba(216, 195, 165, 0.3);
+    margin: 20px;
+    min-height: 200px;
+    justify-content: space-between;
+}
+section h2{
+    font-size: 25px;
+    font-family: 'Poppies', sans-serif;
+    color: #E85A4F;
+    font-weight: 1px;
+    padding: 10px;
+}
+section p{
+    font-family: 'Poppies', sans-serif;
+    font-size: 18px;
+    color: #4b4944;
+    padding: 15px;
+}
+footer{
+    background:linear-gradient(#EAE7DC, #D8C3A5);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.col{
+    margin: 10px;
+    text-align: center;
+    padding-top: 15%;
+}
+.col a{
+    display: block;
+    text-decoration: none;
+    color: #2c2c2a;
+    margin: 20px;
+}
+.col h3{
+    font-weight: 300;
+    letter-spacing: 1px;
+    color: #E85A4F;
+}
+.col form input{
+    width: 100%;
+    height: 45px;
+    text-align: center;
+    border: none;
+    border-radius: 4%;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.col form button{
+    background-color: transparent;
+    border: 2px solid #5f5d58;
+    border-radius: 30px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+.col-item-1{
+    width: 30%;
+    min-height: 300px;
+}
+.col-item-2{
+    width: 30%;
+    min-height: 300px;
+}
+.col-item-3{
+    width: 30%;
+    min-height: 300px;
+}
